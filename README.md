@@ -1,10 +1,7 @@
 Yii Form Without Action Attribute
 =================================
- * @author: Peter Hartree <web@peterhartree.co.uk>
- * @author-uri: web.peterhartree.co.uk
 
-
- Extend Yii's CActiveForm and CHtml classes to enable the creation of a form tag with the action attribute omitted. Developed for Yii 1.1.x
+ Extend Yii's CActiveForm and CHtml classes to enable the creation of a form tag with the action attribute omitted. **Developed for Yii 1.1.x.**
 
 
 Install
