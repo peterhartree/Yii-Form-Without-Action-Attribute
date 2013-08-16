@@ -7,13 +7,15 @@ Yii Form Without Action Attribute
 Install
 --
  1. Put CustomCHtml.php and CActiveFormSelf.php in your /protected/components directory.
- 2. Check your /protected/config/main.php file, to ensure that the "import" array includes an entry to autoload these classes. (Hint: something like 'application.components.*',)
+ 2. Check your app config (/protected/config/main.php), to ensure that the "import" array includes a path to these classes. (Hint: something like 'application.components.*',)
  
 Usage
 --
 
  1. In your view, call:
  
+```php
  $form=$this->beginWidget('CActiveFormSelf', array(
   // params
- );
+ ));
+ ```
