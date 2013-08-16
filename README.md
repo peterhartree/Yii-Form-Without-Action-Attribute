@@ -16,6 +16,7 @@ Usage
  
 ```php
  $form=$this->beginWidget('CActiveFormSelf', array(
-  // params
+   'action' => false,
+   // other params
  ));
  ```
